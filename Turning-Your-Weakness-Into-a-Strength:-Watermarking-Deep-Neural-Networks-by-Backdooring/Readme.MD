@@ -31,3 +31,14 @@ and one mapping for the trigger set images, resulting in no or only a very low a
 ![Table 1](/Turning-Your-Weakness-Into-a-Strength:-Watermarking-Deep-Neural-Networks-by-Backdooring/media/table_1.png)
 
 ### Removing the watermark
+
+Now they tested the robustness of their techniques by trying to remove the watermark using four methods:
+
+1. Fine-Tune Last Layer (FTLL):
+Freeze all layers except last one. Only update parameters of the last layer during training.
+2. Fine-Tune All Layers (FTAL):
+Update parameters of all layers during training
+3. Re-Train Last Layers (RTLL):
+Like FTLL, except the last layer is randomly initialised again.
+4. Re-Train All Layers (RTAL):
+Like FTAL, except the last layer is randomly initialised again
