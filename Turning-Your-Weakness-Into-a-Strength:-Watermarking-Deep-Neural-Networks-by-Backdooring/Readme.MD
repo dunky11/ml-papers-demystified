@@ -47,4 +47,4 @@ Like FTAL, except the last layer is randomly initialised again.
 An important finding was that the watermark was removable when they used the 'pretrained' technique for embedding the watermark, but they couldn't
 remove the watermark when it was embedded using the 'from scratch' technique.
 
-![Figure 6](/Turning-Your-Weakness-Into-a-Strength:-Watermarking-Deep-Neural-Networks-by-Backdooring/media/figure_6.png)
+![Figure 6](/Turning-Your-Weakness-Into-a-Strength:-Watermarking-Deep-Neural-Networks-by-Backdooring/media/fig_6.png)
