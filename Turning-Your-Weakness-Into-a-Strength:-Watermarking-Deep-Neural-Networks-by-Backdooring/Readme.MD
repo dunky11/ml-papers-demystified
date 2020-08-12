@@ -1,7 +1,7 @@
 ## Turning-Your-Weakness-Into-a-Strength:-Watermarking-Deep-Neural-Networks-by-Backdooring
 #### https://arxiv.org/pdf/1802.04633.pdf
 
-A technique is proposed for embedding a watermark into a neural network. They watermark a Convolutional Neural Network in a classification task, however
+A technique is proposed for embedding a watermark into a neural network. They watermark a convolutional neural network in a classification task, however
 the technique works for non convolutional neural networks in classification tasks too.
 
 ### The watermark
