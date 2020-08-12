@@ -32,13 +32,19 @@ and one mapping for the trigger set images, resulting in no or only a very low a
 
 ### Removing the watermark
 
-Now they tested the robustness of their techniques by trying to remove the watermark using four methods:
+Now they tested the robustness of their techniques by trying to remove the watermark. They trained their model with the original datasets (CIFAR10 and CIFAR100)
+for the same amount of epochs(60) using one of the four methods:
 
 1. Fine-Tune Last Layer (FTLL):
 Freeze all layers except last one. Only update parameters of the last layer during training.
 2. Fine-Tune All Layers (FTAL):
-Update parameters of all layers during training
+Update parameters of all layers during training.
 3. Re-Train Last Layers (RTLL):
 Like FTLL, except the last layer is randomly initialised again.
 4. Re-Train All Layers (RTAL):
-Like FTAL, except the last layer is randomly initialised again
+Like FTAL, except the last layer is randomly initialised again.
+
+An important finding was that the watermark was removable when they used the 'pretrained' technique for embedding the watermark, but they couldn't
+remove the watermark when it was embedded using the 'from scratch' technique.
+
+![Figure 6](/Turning-Your-Weakness-Into-a-Strength:-Watermarking-Deep-Neural-Networks-by-Backdooring/media/figure_6.png)
