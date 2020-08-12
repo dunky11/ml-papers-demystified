@@ -9,4 +9,11 @@ how to classify it's key.
 ### Unlabeled data augmentation
 
 Traditional watermark removal attacks often assumed that the attacker has as much data as the one who trained the model. 
-However this is not realistic. 
+However this is not realistic. So for getting more training samples we get unlabeled data for the classes of our model.
+It's not necessary for the unlabeled data to be similar to the data which was used to train the watermarked model. Then we predict
+the labels of our unlabeled data using our model and use the predictions as the labels for training.
+
+### Elastic weight consolidation
+
+Elastic weight consolidation is used to slow down the learning of parameters for previously used tasks. It works by adding a regularitaion
+term to our loss function. 
