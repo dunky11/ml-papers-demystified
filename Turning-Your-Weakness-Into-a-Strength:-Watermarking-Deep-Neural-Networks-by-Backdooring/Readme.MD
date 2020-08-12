@@ -7,5 +7,5 @@ that the model is their own. The keys are some images which should be as differe
 case they use images of abstract art. They assign random classes to the images. They call this set of key images the trigger set. Then they propose two methods: 'From scratch' and 'pretrained'. 
 1. From scratch: Start with a model which was just randomly initialised. Then train the model at each iteration using 100 images from the original
 dataset and 2 images from the triggerset. 
-2. Pretrained: Train the model using the original dataset only. Then embed the watermark using the trigger set only.
+2. Pretrained: Pretrain the model using the original dataset only. Then embed the watermark using the trigger set only.
 
