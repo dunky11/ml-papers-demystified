@@ -21,6 +21,6 @@ term to our loss function.
 ![EWC formula](https://github.com/dunky11/ml-papers-demystified/blob/master/REFIT:-a-Unified-Watermark-Removal-Framework-for-Deep-Learning-Systems-with-Limited-Data/media/ewc.png)
 
 Where L_basic is the loss of our original loss function, like cross entropy for example. β is our regularization hyperparameter not to be confused with our learning
-rate. 
+rate. θ* are the parameters used for the previous iterations θ are the parameters of our network on the current iteration. 
 
 
