@@ -28,4 +28,6 @@ Since the model will see the same trigger set images multiple time each epoch th
 shown in the table below. They hope that the trigger set images are so different from the dataset, that the model learns one mapping for the dataset images
 and one mapping for the trigger set images, resulting in no or only a very low accuracy loss compared to a model which was trained without a trigger set.
 
+![Table 1](/media/table_1.png)
+
 ### Removing the watermark
