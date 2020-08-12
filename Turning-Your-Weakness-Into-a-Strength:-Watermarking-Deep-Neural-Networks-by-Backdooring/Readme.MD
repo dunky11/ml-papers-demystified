@@ -23,6 +23,7 @@ Then they propose two methods: 'From scratch' and 'pretrained'.
 1. From scratch: Start with a model which was just randomly initialised. Then train the model at each iteration using 100 images from the original
 dataset and 2 images from the triggerset. 
 2. Pretrained: Pretrain the model using the original dataset only. Then embed the watermark using the trigger set only.
+
 Since the model will see the same trigger set images multiple time each epoch the model will overfit on the trigger set images resulting in an accuracy of 100%
 shown in the table below. They hope that the trigger set images are so different from the dataset, that the model learns one mapping for the dataset images
 and one mapping for the trigger set images, resulting in no or only a very low accuracy loss.
