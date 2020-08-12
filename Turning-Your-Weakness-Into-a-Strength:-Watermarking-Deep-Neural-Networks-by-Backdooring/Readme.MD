@@ -26,6 +26,6 @@ dataset and 2 images from the triggerset.
 
 Since the model will see the same trigger set images multiple time each epoch the model will overfit on the trigger set images resulting in an accuracy of 100%
 shown in the table below. They hope that the trigger set images are so different from the dataset, that the model learns one mapping for the dataset images
-and one mapping for the trigger set images, resulting in no or only a very low accuracy loss.
+and one mapping for the trigger set images, resulting in no or only a very low accuracy loss compared to a model which was trained without a trigger set.
 
 ### Removing the watermark
