@@ -7,7 +7,7 @@ the technique works for non convolutional neural networks in classification task
 ### The watermark
 
 First they generate a key, which they use to watermark the model and verify that the model is their own. The keys are some images which should be as different as possible from the set of images they train their model on. In their
-case they use images of abstract art. They assign random classes to the images. They call this set of key images the trigger set. Then they propose two methods: 'From scratch' and 'pretrained'.
+case they use images of abstract art. They assign random classes to the images. They call this set of key images the trigger set.
 
 ### The model
 
@@ -15,6 +15,8 @@ case they use images of abstract art. They assign random classes to the images. 
 
 ### Training the model
 
+
+Then they propose two methods: 'From scratch' and 'pretrained'.
 1. From scratch: Start with a model which was just randomly initialised. Then train the model at each iteration using 100 images from the original
 dataset and 2 images from the triggerset. 
 2. Pretrained: Pretrain the model using the original dataset only. Then embed the watermark using the trigger set only.
