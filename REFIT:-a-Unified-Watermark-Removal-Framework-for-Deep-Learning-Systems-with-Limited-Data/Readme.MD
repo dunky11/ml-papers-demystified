@@ -21,6 +21,6 @@ term to our loss function.
 ![EWC formula](https://github.com/dunky11/ml-papers-demystified/blob/master/REFIT:-a-Unified-Watermark-Removal-Framework-for-Deep-Learning-Systems-with-Limited-Data/media/ewc.png)
 
 Where L_basic is the loss of our original loss function, like cross entropy for example. β is our regularization hyperparameter not to be confused with our learning
-rate. The higher β is the more we slow down the change of parameters we used in the last iteration. θ* are the parameters used for the previous iterations and θ are the parameters of our network on the current iteration. 
+rate. The higher β is the more we slow down the change of parameters we used in the last iteration. θ* are the parameters used for the previous iterations and θ are the parameters of our network on the current iteration. F is the fisher information matrix and Fi is the diagonal entry at the diagonal entry corresponding to the i-th parameter.
 
 
