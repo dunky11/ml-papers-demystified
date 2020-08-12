@@ -17,6 +17,6 @@ the labels of our unlabeled data using our model and use the predictions as the 
 
 Elastic weight consolidation is used to slow down the learning of parameters for previously used tasks. It works by adding a regularitaion
 term to our loss function.
-![formula](https://render.githubusercontent.com/render/math?math=A,%20B%20\in%20\U,%20x%20\in%20\Z)
+![EWC formula](/master/REFIT:-a-Unified-Watermark-Removal-Framework-for-Deep-Learning-Systems-with-Limited-Data/ewc.png)
 
 
