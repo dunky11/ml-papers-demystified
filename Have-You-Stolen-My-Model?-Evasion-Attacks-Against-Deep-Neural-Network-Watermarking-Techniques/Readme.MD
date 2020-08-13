@@ -16,4 +16,4 @@ The architecture is shown below.
 
 They showed that this process works by embedding 7 different trigger sets on 7 models. The trigger set contained 10 images of abstract images for each model with random classes assigned to them. They embedded the trigger set while training the network on the MNIST dataset. Each of the 7 models had an accuracy of above 99% on the MNIST dataset an accuracy of 100% on their trigger set. The figure below shows the accuracy of the trigger set of each of the models after they were essembled.
 
-<img src="https://raw.githubusercontent.com/dunky11/ml-papers-demystified/master/Have-You-Stolen-My-Model%3F-Evasion-Attacks-Against-Deep-Neural-Network-Watermarking-Techniques/media/table_1.png" width="auto" height="300">
+<img src="https://raw.githubusercontent.com/dunky11/ml-papers-demystified/master/Have-You-Stolen-My-Model%3F-Evasion-Attacks-Against-Deep-Neural-Network-Watermarking-Techniques/media/average_trigger_acc.png" width="auto" height="300">
