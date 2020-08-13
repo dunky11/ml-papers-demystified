@@ -17,6 +17,10 @@ the labels of our unlabeled data using our model and use the predictions as the 
 
 Elastic weight consolidation is used to slow down the learning of parameters for previously used tasks. It works by adding a regularitaion
 term to our loss function.
-![formula](https://render.githubusercontent.com/render/math?math=A,%20B%20\in%20\U,%20x%20\in%20\Z)
+
+![EWC formula](https://github.com/dunky11/ml-papers-demystified/blob/master/REFIT:-a-Unified-Watermark-Removal-Framework-for-Deep-Learning-Systems-with-Limited-Data/media/ewc.png)
+
+Where L_basic is the loss of our original loss function, like cross entropy for example. β is our regularization hyperparameter not to be confused with our learning
+rate. The higher β is the more we slow down the change of parameters we used in the last iteration. θ* are the parameters used for the previous iterations and θ are the parameters of our network on the current iteration. F is the fisher information matrix and Fi is the diagonal entry at the diagonal entry corresponding to the i-th parameter.
 
 
