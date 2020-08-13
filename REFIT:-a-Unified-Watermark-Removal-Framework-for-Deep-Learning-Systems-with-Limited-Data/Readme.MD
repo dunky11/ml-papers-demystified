@@ -1,4 +1,4 @@
-## REFIT: a Unified Watermark Removal Framework for Deep Learning Systems with Limited Data
+## REFIT: a Unified Watermark Removal Framework for Deep Learning Systems with Limited Data (TODO)
 #### https://arxiv.org/pdf/1911.07205.pdf
 
 Refit is an algorithm for removing watermarks from neural network. It does that by training the model on new data. Furthermore it
