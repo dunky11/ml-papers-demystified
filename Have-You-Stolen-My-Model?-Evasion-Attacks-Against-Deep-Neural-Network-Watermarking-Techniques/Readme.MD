@@ -8,7 +8,6 @@ the model with the key set is called the verification step.
 
 The paper proposes two methods to attack the verification step of the backdooring algorithm. 
 
-
 ### Ensemble Attack
 
 The attacker gathers multiple models. Of those models a variable amount can be watermarked. It is necessary for the attack that the watermarked models have been watermarked using different key sets. 
