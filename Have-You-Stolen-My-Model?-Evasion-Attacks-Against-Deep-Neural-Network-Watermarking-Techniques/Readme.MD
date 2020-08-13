@@ -12,4 +12,6 @@ The paper proposes two methods to attack the verification step of the backdoorin
 
 The attacker gathers multiple models. Of those models a variable amount can be watermarked. It is necessary for the attack that the watermarked models have been watermarked using different key sets. 
 
+
+
 ![Ensemble Attack](https://github.com/dunky11/ml-papers-demystified/edit/master/Have-You-Stolen-My-Model%3F-Evasion-Attacks-Against-Deep-Neural-Network-Watermarking-Techniques/media/table_1.png)
