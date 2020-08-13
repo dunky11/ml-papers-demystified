@@ -14,4 +14,4 @@ The attacker gathers multiple models. Of those models a variable amount can be w
 
 
 
-![Ensemble Attack](https://raw.githubusercontent.com/dunky11/ml-papers-demystified/master/Have-You-Stolen-My-Model%3F-Evasion-Attacks-Against-Deep-Neural-Network-Watermarking-Techniques/media/table_1.png | height=200)
+![Ensemble Attack](https://raw.githubusercontent.com/dunky11/ml-papers-demystified/master/Have-You-Stolen-My-Model%3F-Evasion-Attacks-Against-Deep-Neural-Network-Watermarking-Techniques/media/table_1.png){:height="50%" width="50%"}
