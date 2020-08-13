@@ -11,5 +11,6 @@ The paper proposes two methods to attack the verification step of the backdoorin
 
 ### Ensemble Attack
 
-The attacker gathers multiple models. Of those models a variable amount can be watermarked. It is necessary for the attack that the watermarked models have been
-watermarked using different key sets. 
+The attacker gathers multiple models. Of those models a variable amount can be watermarked. It is necessary for the attack that the watermarked models have been watermarked using different key sets. 
+
+
